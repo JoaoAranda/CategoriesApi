@@ -13,7 +13,7 @@ Category visibility update api call example
 [![Swagger example](https://prnt.sc/F3FWTtAjQY67 "Swagger example")](https://prnt.sc/F3FWTtAjQY67 "Swagger example")
 
 **GET - /api/categories**
-`Allows you to list all registered categories, being able to filter by Id or Slug.`
+`Allows you to list all registered categories, being able to filter by Id or Slug (Cache time: 30 seconds).`
 
 **POST - /api/categories** 
 `Create a new category.`
@@ -29,8 +29,6 @@ Category visibility update api call example
 
 **DELETE - /api/categories/{id}**
 `Performs a physical deletion of the category.`
-
-Cache time set to 30 seconds in all categories listing
 
 Database template script:
 
